@@ -1,0 +1,310 @@
+
+@media (min-width: 1000px){body{
+    background-image: url("assets/images/3065_R0lVIEFOTiAzMjktMjg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 5%;
+    height: 100vh;
+    overflow: hidden;
+
+}}
+@media (max-width: 1000px){body{
+    background-image: url("assets/images/bg_vertical.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 5%;
+    height: 120vh;
+    overflow: hidden;
+
+}}
+
+@media (min-width: 1000px){
+    .logoimg{
+        padding-left: 35%;
+        height: 150px;
+        width: 500px;
+}}
+@media (max-width: 1000px) {
+    .logoimg {
+        padding-top: 15%;
+        padding-left: 25%;
+        height: 60px;
+        width: 200px;
+    }}
+
+.container {
+    background-color: rgba(255, 255, 255, .15);   
+    max-width: 1200px;
+    backdrop-filter: blur(3px);
+    margin: auto;
+    align-content: center;
+    padding: 5%;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.separator {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+#titleList {
+    max-height: 400px; /* Adjust this value based on your layout */
+    overflow-y: auto;
+    padding: 10px;
+
+    border-radius: 5px;
+
+    list-style-type: none; /* Remove bullets if you want */
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+
+}
+
+.icon{
+        height: 18px;
+        width: 22px;
+}
+
+.buymeacoffeelogo{
+        height: 30px;
+        width: 35px;
+}
+
+#titleList li {
+    margin-bottom: 10px; /* Space between items */
+}
+
+.advertisement {
+    max-width: 1000px;
+    height: 80px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, .15);  
+
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.SupportMe {
+    max-width: 800px;
+    margin: auto;
+    height: 40px;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+@media (max-width: 1000px) {
+    .SupportMe {
+        margin-top: 20px;
+    }}
+
+.advertisement{
+    color: #a05102;
+}
+
+#buymeacoffee{
+    color: #754405;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.input-group {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    padding-top: none;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    margin-right: 10px;
+}
+
+
+button {
+    background: #a05102;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#imageContainer {
+    padding-left: 40%;
+    padding-top: 15px;
+    width: 100%;
+    height: 5%; /* Or set to the height of the container if it's not fullscreen */
+}
+@media (min-width: 1200px) {
+    #imageContainer {
+        padding-left: 47%;
+    }}
+
+.loader {
+    width: 60px;
+    aspect-ratio: 1;
+    display: flex;
+    animation: l10-0 2s infinite steps(1);
+  }
+  .loader::before,
+  .loader::after {
+    content: "";
+    flex: 1;
+    animation: 
+      l10-1 1s infinite linear alternate,
+      l10-2 2s infinite steps(1) -.5s;
+  }
+  .loader::after {
+    --s:-1,-1;
+  }
+  @keyframes l10-0 {
+    0%  {transform: scaleX(1)  rotate(0deg)}
+    50% {transform: scaleX(-1) rotate(-90deg)}
+  }
+  @keyframes l10-1 {
+    0%,
+    5%   {transform:scale(var(--s,1)) translate(0px)   perspective(150px) rotateY(0deg) }
+    33%  {transform:scale(var(--s,1)) translate(-10px) perspective(150px) rotateX(0deg) }
+    66%  {transform:scale(var(--s,1)) translate(-10px) perspective(150px) rotateX(-180deg)}
+    95%,
+    100% {transform:scale(var(--s,1)) translate(0px)   perspective(150px) rotateX(-180deg)}
+  }
+  @keyframes l10-2 {
+    0%  {background:#514b82;border-radius: 0}
+    50% {background:#25b09b;border-radius: 100px 0 0 100px}
+  }
+
+
+button:hover {
+    background: #754405;
+    border-radius: 4px;
+    border-color: black;
+    border-width: 18px;
+}
+
+.result-item {
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy-button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    background: #0056b3;
+}
+.image-container {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    body, .container, .input-group {
+        padding: 10px;
+    }
+}
+.hidden {
+    display: none;
+}
+
+
+#copyButton {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 10px 0; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.footer {
+    
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    padding: 10px;
+    margin: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        width: 85%;
+        height: 45px;
+        background-color: black;
+        padding: 0;
+        margin: none;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }}
+
+.foot{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+    text-align: left;
+    
+}
+
+@media (max-width: 1000px) {
+    .foot {
+        padding-left: 2%;
+    }}
+
+
+.links{
+    float: right;
+    
+}
+
+.Insta,.Email{
+        color: #fff;
+        text-decoration: none;
+        margin-left: 10px;   
+}
+
+.Email{
+    padding-right: 50px
+}
+
+
+
+
