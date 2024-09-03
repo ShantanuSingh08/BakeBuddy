@@ -58,7 +58,7 @@
 
 
 #titleList {
-    max-height: 400px; /* Adjust this value based on your layout */
+    max-height: 230px; /* Adjust this value based on your layout */
     overflow-y: auto;
     padding: 10px;
 
