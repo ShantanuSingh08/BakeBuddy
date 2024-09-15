@@ -97,6 +97,11 @@
     text-align: center;
 }
 
+@media (max-width: 1000px){ PC{
+    display:none;
+    }    
+}
+
 .SupportMe {
     max-width: 800px;
     margin: auto;
