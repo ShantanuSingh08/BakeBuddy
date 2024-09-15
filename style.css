@@ -97,7 +97,8 @@
     text-align: center;
 }
 
-@media (max-width: 1000px){ PC{
+@media (max-width: 1000px){ 
+    .PC {
     display:none;
     }    
 }
