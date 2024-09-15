@@ -19,7 +19,7 @@
     background-color: antiquewhite;
     align-items: center;
     padding: 5%;
-    height: 120vh;
+    height: auto;
     overflow: hidden;
 
 }}
